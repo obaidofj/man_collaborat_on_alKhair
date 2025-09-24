@@ -1,0 +1,217 @@
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# ملفات IDE/المحرر
+.idea/
+.vscode/
+*.iml
+
+# ملفات بايثون
+__pycache__/
+.venv/
+virtualenv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+
+# ملفات Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+flutter_linux_3.16.9-stable.tar.xz
+commandlinetools-linux-11076708_latest.zip.1
+flutter_linux_*.tar.xz
+commandlinetools-*.zip*
+
+
+# ملفات بناء/إخراج عامة
+build/
+dist/
+*.log
+*.tmp
+
+# مجلدات خاصة بالمشروع
+.browser_data_dir/
+.cache/
+.logs/
+.local/
+.npm/
+.nvm/
+
+
+# مجلدات داخل code_bases (افتراضية للباك إند، الفرونت إند، تطبيقات الموبايل)
+code_bases/*/node_modules/
+code_bases/*/build/
+code_bases/*/dist/
+code_bases/*/venv/
+code_bases/*/android/build/
+code_bases/*/ios/build/
+code_bases/*/target/
+code_bases/*/bin/
+code_bases/*/obj/flutter.tar.xz
+
+
+# =====================
+# Flutter
+# =====================
+**/build/
+**/.dart_tool/
+**/.packages
+**/pubspec.lock
+**/flutter_export_environment.sh
+
+# iOS Flutter specific
+**/ios/Flutter/.last_build_id
+
+# Android Flutter specific
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# =====================
+# Android Native
+# =====================
+**/.gradle/
+**/local.properties
+**/.idea/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/*.iml
+
+# Gradle caches
+**/build/
+**/app/build/
+
+# Signing files (don’t commit keystores)
+**/*.jks
+**/*.keystore
+**/key.properties
+
+# =====================
+# iOS / Xcode
+# =====================
+**/Pods/
+**/DerivedData/
+**/*.xcuserstate
+**/*.xcuserdata/
+**/*.xcworkspace
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodescheme
+**/*.xcuserdatad
+**/Flutter/Generated.xcconfig
+
+# App signing and provisioning
+**/*.mobileprovision
+**/*.provisionprofile
+**/ExportOptions.plist
+
+# =====================
+# OS / Editor cruft
+# =====================
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*.tmp
+
+# Flutter
+**/flutter.tar.xz
+**/flutter/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/Generated.xcconfig
+**/Flutter.podspec
+**/Flutter/Generated.xcconfig
+**/Flutter/App.framework/
+**/Flutter/Flutter.framework/
+**/Flutter/Flutter.podspec
+**/Flutter/ephemeral/
+**/Flutter/app.flx
+**/Flutter/app.zip
+**/Flutter/flutter_assets/
+**/Flutter/flutter_export_environment.sh
+
+# Android
+**/android/app/build/
+**/android/app/debug/
+**/android/app/release/
+**/android/app/profile/
+**/android/.gradle/
+**/android/build/
+**/android/local.properties
+**/android/gradle.properties
+**/android/.idea/
+**/android/*.iml
+**/android/app/*.iml
+**/android/captures/
+**/android/.externalNativeBuild/
+
+# iOS
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/.generated/
+**/ios/build/
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/
+**/DerivedData/
+**/Icon?
+**/._*
+
+# Xcode
+**/*.xcworkspace/
+**/*.xcodeproj/
+**/xcuserdata/
+**/.swiftpm/
+**/CMakeFiles/
+**/CMakeScripts/
+**/.cmake/
+**/*.cmake
+**/*.xctestplan
+
+# Build outputs
+**/build/
+**/dist/
+**/out/
+**/target/
+**/*.apk
+**/*.aab
+**/*.ipa
+**/*.dSYM/
+**/*.app/
+**/*.app.dSYM
+
+# Dependency directories
+**/node_modules/
+**/.dart_tool/
+**/.pub-cache/
+**/.pub/
+**/packages/
+**/Pods/
+**/Carthage/
+**/vendor/
+
+# IDE files
+**/.vscode/
+**/.idea/
+**/*.iml
+**/*.swp
+**/*.swo
+**/*.swn
+**/*.swo
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
