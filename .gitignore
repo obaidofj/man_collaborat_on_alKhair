@@ -40,7 +40,8 @@ dist/
 .local/
 .npm/
 .nvm/
-
+.ssh/
+.pki/
 
 # مجلدات داخل code_bases (افتراضية للباك إند، الفرونت إند، تطبيقات الموبايل)
 code_bases/*/node_modules/
@@ -70,6 +71,8 @@ code_bases/*/obj/flutter.tar.xz
 **/android/app/debug
 **/android/app/profile
 **/android/app/release
+
+
 
 # =====================
 # Android Native
