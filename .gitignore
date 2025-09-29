@@ -43,6 +43,7 @@ dist/
 .ssh/
 .pki/
 
+.ssh/
 # مجلدات داخل code_bases (افتراضية للباك إند، الفرونت إند، تطبيقات الموبايل)
 code_bases/*/node_modules/
 code_bases/*/build/
@@ -217,4 +218,4 @@ code_bases/*/obj/flutter.tar.xz
 **/.DS_Store
 **/Thumbs.db
 **/ehthumbs.db
-**/Desktop.ini
+**/Desktop.ini.ssh/
