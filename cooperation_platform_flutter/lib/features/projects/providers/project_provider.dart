@@ -1,0 +1,1 @@
+import 'package:flutter/foundation.dart'; class ProjectProvider extends ChangeNotifier { List projects = []; bool isLoading = false; Future<void> fetchProjects() async { isLoading = true; notifyListeners(); await Future.delayed(Duration(seconds: 1)); isLoading = false; notifyListeners(); } }
